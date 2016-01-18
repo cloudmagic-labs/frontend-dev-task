@@ -1,1 +1,17 @@
-<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/static/css/home.css"><script type="text/javascript" src="/static/js/home.js"></script></head><body class="light-primary-color"><h1>Good Luck!</h1></body></html>
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <title>webYog</title>
+    <link rel="stylesheet" href="/static/css/home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="light-primary-color">
+    <ng-view></ng-view>
+    <script src="/bower/angular/angular.js"></script>
+    <script src="/bower/angular-route/angular-route.js"></script>
+    <script src="/static/js/home.js"></script>
+    <script src="/static/js/services.js"></script>
+</body>
+</html>

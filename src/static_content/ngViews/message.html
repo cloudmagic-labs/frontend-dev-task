@@ -1,0 +1,22 @@
+      <div class='container_ui__expand' id='close'>
+        <div class='heading'>
+          <div class='heading_head'></div>
+          <button ng-click="close()">
+            x
+          </button>
+        </div>
+        <div class='body'>
+          <div class='user'>
+            <div class='face'>
+              <img src='/static/images/socrates.jpeg'>
+            </div>
+            <div class='details'>
+              <h2>{{message.participants[0].name}}</h2>
+              <h3>subj: {{message.subject}}</h3>
+            </div>
+          </div>
+          <div class='content'>
+            <p>{{message.body}}</p>
+          </div>
+        </div>
+      </div>
