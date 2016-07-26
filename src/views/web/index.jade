@@ -1,8 +1,11 @@
 doctype html
-html
-    head
-        title= title
-        link(rel='stylesheet', href='/static/css/home.css')
-        script(type='text/javascript', src='/static/js/home.js')
-    body(class='light-primary-color')
-        h1 Good Luck!
+html(lang="en")
+  head
+    title= webyog
+    link(rel='stylesheet', href='/static/css/home.css')
+    script(type='text/javascript').
+      
+  body
+   ul.collection
+        each val in [1, 2, 3, 4, 5]
+            li.collection-item.avatar= val

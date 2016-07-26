@@ -1,0 +1,22 @@
+{
+  "name": "front-end-challenge",
+  "description": "",
+  "main": "",
+  "authors": [
+    "manoj singh <singhmanoj8253@yahoo.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/webyog/frontend-dev-task",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.8",
+    "angular": "~1.4.8"
+  }
+}

@@ -10,7 +10,7 @@ module.exports = function (router) {
         //res.sendFile(_getViewPath('index_htm.html'));
         //return;
 
-        res.render('index', {title: 'Front-End Challenge'});
+        res.render('index', {title: 'Front-End '});
     });
 
     /**
